@@ -54,3 +54,9 @@ If necessary, a read-aloud feature is provided for the demonstration. We can ena
 ```
 bot.play(my_color_is_white=False, read_aloud=True)
 ```
+
+
+# Possible future improvements
+
+- Implement rollback for console inputs
+- Implement a GUI to replace console interactions
