@@ -7,7 +7,7 @@ A Python chess bot for determining optimal moves in a chess game. No neural netw
 As shown in the ```requirements.txt``` file, this program makes use of the following modules: ```chess```, ```gTTS``` and ```pygame```.
 
 
-# Algorithm used
+# Algorithm
 
 The bot operates by generating all possible legal moves, evaluating a confidence score for each move, and then outputting the top few moves. Given some board layout B, the confidence score of a move M is rated using the following procedure:
 
