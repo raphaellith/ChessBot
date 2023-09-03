@@ -49,7 +49,7 @@ In the demonstration, every time the bot is asked to make a move, it determines 
 
 ```[source position]-[destination position]```
 
-(for example: ```a1-a2```). Do not use algebraic chess notation. The same goes for when the enemy's move is to be inputted. Other important instructions will be displayed in the console during the demonstration.
+(for example: ```a1-a2```). Do not use other types of notation (e.g. algebraic notation). The same goes for when the enemy's move is to be inputted. Other important instructions will be displayed in the console during the demonstration.
 
 If necessary, a read-aloud feature is provided for the demonstration. We can enable this feature by adding ```read_aloud=True``` as follows, in which case the best move (as decided by the bot) will be read out through a speaker or headphones.
 
