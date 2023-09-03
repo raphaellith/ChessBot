@@ -1,6 +1,8 @@
 # ChessBot
 A Python chess bot for determining optimal moves in a chess game. No neural networks are used to make this bot.
 
+The bot is intended to be used for real-life human-versus-bot games, and is thus optimized for that purpose.
+
 
 # Requirements
 
@@ -27,7 +29,7 @@ Note that
 
 # Typical usage
 
-The program which is mainly used for real-life human-versus-bot games, revolves around the ```ChessBot``` class. We can thus first create a ```ChessBot``` object, specifying parameters like ```moves_ahead```, ```cautiousness``` and the ```defense_to_attack_ratio```.
+The program revolves around the ```ChessBot``` class. As shown below, we can create a ```ChessBot``` object, specifying parameters like ```moves_ahead```, ```cautiousness``` and the ```defense_to_attack_ratio```.
 
 ```
 from ChessBot import ChessBot
